@@ -1,0 +1,3 @@
+class SurveyContentTemplate {
+  String id = "";
+}

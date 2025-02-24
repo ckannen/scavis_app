@@ -1,0 +1,9 @@
+enum LayerType {
+  PRE,
+  BG_OUTLINE,
+  BG_FILL,
+  DATA_OUTLINE,
+  DATA_FILL,
+  LABELS,
+  POST,
+}

@@ -1,0 +1,158 @@
+import 'package:scavis/survey/components/questionnaire/types/questionnaire-question.dart';
+import 'package:scavis/survey/components/questionnaire/template/questionnaire-template.dart';
+
+class SpecificSelfEfficacyQuestionnaire extends QuestionnaireTemplate {
+  @override
+  String id = "specific_self_efficacy";
+
+  @override
+  String introduction = "Wie sicher sind Sie auf einer Skala von 0 bis 10, in folgenden Situationen das Ausmaß Ihrer Internetnutzung kontrollieren zu können?";
+
+  @override
+  List<QuestionnaireQuestion> questions = [
+    QuestionnaireQuestion(
+      questionId: "sse_1",
+      text: "Wenn Sie Stress oder Sorgen haben",
+      type: AnswerFieldType.SELECTION_SLIDER,
+      answerOptions: [
+        AnswerOption(label: "Überhaupt nicht sicher (0)", value: 0),
+        AnswerOption(label: "(1)", value: 1),
+        AnswerOption(label: "(2)", value: 2),
+        AnswerOption(label: "(3)", value: 3),
+        AnswerOption(label: "(4)", value: 4),
+        AnswerOption(label: "(5)", value: 5),
+        AnswerOption(label: "(6)", value: 6),
+        AnswerOption(label: "(7)", value: 7),
+        AnswerOption(label: "(8)", value: 8),
+        AnswerOption(label: "(9)", value: 9),
+        AnswerOption(label: "Sehr sicher (10)", value: 10),
+      ],
+    ),
+    QuestionnaireQuestion(
+      questionId: "sse_2",
+      text: "Wenn Sie sich belohnen möchten",
+      type: AnswerFieldType.SELECTION_SLIDER,
+      answerOptions: [
+        AnswerOption(label: "Überhaupt nicht sicher (0)", value: 0),
+        AnswerOption(label: "(1)", value: 1),
+        AnswerOption(label: "(2)", value: 2),
+        AnswerOption(label: "(3)", value: 3),
+        AnswerOption(label: "(4)", value: 4),
+        AnswerOption(label: "(5)", value: 5),
+        AnswerOption(label: "(6)", value: 6),
+        AnswerOption(label: "(7)", value: 7),
+        AnswerOption(label: "(8)", value: 8),
+        AnswerOption(label: "(9)", value: 9),
+        AnswerOption(label: "Sehr sicher (10)", value: 10),
+      ],
+    ),
+    QuestionnaireQuestion(
+      questionId: "sse_3",
+      text: "Wenn Sie niedergeschlagen oder traurig sind",
+      type: AnswerFieldType.SELECTION_SLIDER,
+      answerOptions: [
+        AnswerOption(label: "Überhaupt nicht sicher (0)", value: 0),
+        AnswerOption(label: "(1)", value: 1),
+        AnswerOption(label: "(2)", value: 2),
+        AnswerOption(label: "(3)", value: 3),
+        AnswerOption(label: "(4)", value: 4),
+        AnswerOption(label: "(5)", value: 5),
+        AnswerOption(label: "(6)", value: 6),
+        AnswerOption(label: "(7)", value: 7),
+        AnswerOption(label: "(8)", value: 8),
+        AnswerOption(label: "(9)", value: 9),
+        AnswerOption(label: "Sehr sicher (10)", value: 10),
+      ],
+    ),
+    QuestionnaireQuestion(
+      questionId: "sse_4",
+      text: "Wenn Sie etwas Tolles erleben",
+      type: AnswerFieldType.SELECTION_SLIDER,
+      answerOptions: [
+        AnswerOption(label: "Überhaupt nicht sicher (0)", value: 0),
+        AnswerOption(label: "(1)", value: 1),
+        AnswerOption(label: "(2)", value: 2),
+        AnswerOption(label: "(3)", value: 3),
+        AnswerOption(label: "(4)", value: 4),
+        AnswerOption(label: "(5)", value: 5),
+        AnswerOption(label: "(6)", value: 6),
+        AnswerOption(label: "(7)", value: 7),
+        AnswerOption(label: "(8)", value: 8),
+        AnswerOption(label: "(9)", value: 9),
+        AnswerOption(label: "Sehr sicher (10)", value: 10),
+      ],
+    ),
+    QuestionnaireQuestion(
+      questionId: "sse_5",
+      text: "Wenn Sie gelangweilt sind oder warten müssen",
+      type: AnswerFieldType.SELECTION_SLIDER,
+      answerOptions: [
+        AnswerOption(label: "Überhaupt nicht sicher (0)", value: 0),
+        AnswerOption(label: "(1)", value: 1),
+        AnswerOption(label: "(2)", value: 2),
+        AnswerOption(label: "(3)", value: 3),
+        AnswerOption(label: "(4)", value: 4),
+        AnswerOption(label: "(5)", value: 5),
+        AnswerOption(label: "(6)", value: 6),
+        AnswerOption(label: "(7)", value: 7),
+        AnswerOption(label: "(8)", value: 8),
+        AnswerOption(label: "(9)", value: 9),
+        AnswerOption(label: "Sehr sicher (10)", value: 10),
+      ],
+    ),
+    QuestionnaireQuestion(
+      questionId: "sse_6",
+      text: "Wenn Sie etwas dringend mit anderen teilen wollen",
+      type: AnswerFieldType.SELECTION_SLIDER,
+      answerOptions: [
+        AnswerOption(label: "Überhaupt nicht sicher (0)", value: 0),
+        AnswerOption(label: "(1)", value: 1),
+        AnswerOption(label: "(2)", value: 2),
+        AnswerOption(label: "(3)", value: 3),
+        AnswerOption(label: "(4)", value: 4),
+        AnswerOption(label: "(5)", value: 5),
+        AnswerOption(label: "(6)", value: 6),
+        AnswerOption(label: "(7)", value: 7),
+        AnswerOption(label: "(8)", value: 8),
+        AnswerOption(label: "(9)", value: 9),
+        AnswerOption(label: "Sehr sicher (10)", value: 10),
+      ],
+    ),
+    QuestionnaireQuestion(
+      questionId: "sse_7",
+      text: "Wenn Sie erschöpft sind",
+      type: AnswerFieldType.SELECTION_SLIDER,
+      answerOptions: [
+        AnswerOption(label: "Überhaupt nicht sicher (0)", value: 0),
+        AnswerOption(label: "(1)", value: 1),
+        AnswerOption(label: "(2)", value: 2),
+        AnswerOption(label: "(3)", value: 3),
+        AnswerOption(label: "(4)", value: 4),
+        AnswerOption(label: "(5)", value: 5),
+        AnswerOption(label: "(6)", value: 6),
+        AnswerOption(label: "(7)", value: 7),
+        AnswerOption(label: "(8)", value: 8),
+        AnswerOption(label: "(9)", value: 9),
+        AnswerOption(label: "Sehr sicher (10)", value: 10),
+      ],
+    ),
+    QuestionnaireQuestion(
+      questionId: "sse_8",
+      text: "Wenn Sie Push-Nachrichten bemerken",
+      type: AnswerFieldType.SELECTION_SLIDER,
+      answerOptions: [
+        AnswerOption(label: "Überhaupt nicht sicher (0)", value: 0),
+        AnswerOption(label: "(1)", value: 1),
+        AnswerOption(label: "(2)", value: 2),
+        AnswerOption(label: "(3)", value: 3),
+        AnswerOption(label: "(4)", value: 4),
+        AnswerOption(label: "(5)", value: 5),
+        AnswerOption(label: "(6)", value: 6),
+        AnswerOption(label: "(7)", value: 7),
+        AnswerOption(label: "(8)", value: 8),
+        AnswerOption(label: "(9)", value: 9),
+        AnswerOption(label: "Sehr sicher (10)", value: 10),
+      ],
+    ),
+  ];
+}
