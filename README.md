@@ -1,6 +1,4 @@
-# scavis
-
-Scavis
+# Scavis (smart@net-App)
 
 ## Information
 
